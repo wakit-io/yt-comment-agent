@@ -1,0 +1,37 @@
+# 비밀값 — 절대 커밋 금지 (심사 체크리스트: API 키가 저장소에 안 올라갈 것)
+.env
+.env.local
+kit/.env
+kit/.env.local
+data/
+**/tokens.json
+
+# 의존성 / 빌드 산출물
+node_modules/
+kit/node_modules/
+kit/.svelte-kit/
+kit/.vercel/
+kit/build/
+.vercel/
+
+# Playwright 타이핑 시연 전용 프로필(로그인 세션 포함 — 커밋 금지)
+.pw-profile/
+.pw-shots/
+
+# OS
+.DS_Store
+*.log
+supabase/.temp/
+
+# 데모영상 프로젝트는 폴더 밖으로 분리함(안전장치)
+demo-remotion/
+
+# Claude Code 로컬 설정
+.claude/
+
+# 미디어/임시
+*.mov
+*.mp4
+*.mp3
+scratchpad/
+out/

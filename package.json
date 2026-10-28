@@ -1,0 +1,14 @@
+{
+  "name": "yt-comment-agent",
+  "private": true,
+  "type": "module",
+  "description": "YouTube 댓글 어시스턴트 — 영상 불러오기·AI 초안·본인계정 게시(공식 API) 대시보드. 기본 CMS 엔진 위에 구축.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "@supabase/supabase-js": "^2.117.2",
+    "jszip": "^3.10.1",
+    "nodemailer": "^10.1.0",
+    "playwright": "^1.48.2",
+    "web-push": "^3.6.7"
+  }
+}
